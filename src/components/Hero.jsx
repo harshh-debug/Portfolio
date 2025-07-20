@@ -11,7 +11,7 @@ const words = [
 
 const Hero = () => {
   return (
-    <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
+    <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)] lg:min-h-screen">
       <div data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
@@ -44,7 +44,21 @@ const Hero = () => {
          Hey, I’m Harsh Joshi, a full-stack developer passionate about building fast, scalable, and impactful web experiences
         </p>
       </div>
-     
+      
+<div className="w-full lg:w-1/2 flex justify-center items-center mt-10 lg:mt-0 relative overflow-visible">
+  
+  {/* ☀️ Sunlight glow behind the image */}
+  <div className="absolute top-[-10%] right-[-10%] h-[18rem] w-[18rem] z-0 rounded-full"></div>
+
+  {/* 🖼️ Image */}
+  <img
+    src="/images/heroimg.png"
+    alt="Developer Illustration"
+    className="relative z-10 w-[300px] md:w-[400px] lg:w-[500px] transition-all duration-500 rounded-xl"
+  />
+</div>
+
+
 
     
 
