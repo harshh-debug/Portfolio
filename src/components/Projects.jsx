@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router';
 
 const Projects = () => {
 	const [visibleCards, setVisibleCards] = useState(new Set());
@@ -181,17 +182,17 @@ const projects = [
 						Want to see more of my work or discuss a custom project?
 					</p>
 					<div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-						<a
-							href="#contact"
+						<Link
+							to="/contact"
 							className="inline-flex items-center gap-2 bg-[#7d4a1f] text-white font-medium px-8 py-3 rounded-lg hover:bg-[#8b4513] transition-all duration-300 hover:shadow-[0_10px_30px_rgba(125,74,31,0.2)] group"
 						>
 							Get In Touch
 							<svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
 							</svg>
-						</a>
+						</Link>
 						<a
-							href="https://github.com/yourusername"
+							href="https://github.com/harshh-debug"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="inline-flex items-center gap-2 bg-gray-800/50 border border-gray-700/50 text-gray-300 font-medium px-8 py-3 rounded-lg hover:text-[#7d4a1f] hover:border-[#7d4a1f]/30 transition-all duration-300 group"

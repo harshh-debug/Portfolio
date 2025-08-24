@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 
 const CallToAction = () => {
   const navigate = useNavigate();
@@ -42,12 +42,12 @@ const CallToAction = () => {
               </svg>
             </button>
             
-            <a
-              href="#projects"
+            <Link
+              to='/projects'
               className="border border-gray-700 text-gray-300 font-medium py-3 px-8 rounded-lg transition-all duration-300 hover:border-[#e99b63] hover:text-[#e99b63]"
             >
               View My Work
-            </a>
+            </Link>
           </div>
           
           <div className="mt-12 flex justify-center">
