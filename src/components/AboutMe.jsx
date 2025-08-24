@@ -138,7 +138,7 @@ const AboutMe = () => {
 									<span className="text-[#e99b63] font-semibold">
 										Harsh Joshi
 									</span>
-									, a 19-year-old BTech IT student at KIET Group of Institutions
+									, a 20-year-old BTech IT student at KIET Group of Institutions
 									and a passionate Full-Stack Developer. I love building clean,
 									scalable applications that merge functionality with design.
 									From crafting sleek interfaces with React, Next.js, and
