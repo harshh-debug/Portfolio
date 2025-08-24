@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Globe from 'react-globe.gl';
 import TechStack from './techstack.jsx';
-import Button from '../components/Button.jsx';
+import Button from './Button.jsx';
 
-const About = () => {
+const Aboutgrid = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
@@ -94,4 +94,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Aboutgrid;

@@ -1,6 +1,8 @@
+import { Link } from "react-router"
+
 const Button = ({ name, isBeam = false, containerClass }) => {
   return (
-    <button className={`btn ${containerClass}`}>
+    <Link to="/contact">    <button className={`btn ${containerClass}`} onClick={()=>{}}>
       {isBeam && (
         <span className="relative flex h-3 w-3">
           <span className="btn-ping"></span>
@@ -9,6 +11,8 @@ const Button = ({ name, isBeam = false, containerClass }) => {
       )}
       {name}
     </button>
+    </Link>
+
   );
 };
 

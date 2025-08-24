@@ -11,12 +11,12 @@ const words = [
 
 const Hero = () => {
   return (
-    <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)] lg:min-h-screen">
+    <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)] lg:min-h-screen ">
       <div data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
             data-aos-duration="1000"
-            className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
+            className="max-w-xl ml-[5%] z-10 mt-[40%] md:mt-[60%] lg:mt-0 ">
         <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wider my-8">
         <h1 className="flex items-center gap-2 md:text-5xl text-3xl font-semibold leading-tight">
           Shaping
@@ -57,12 +57,6 @@ const Hero = () => {
     className="relative z-10 w-[300px] md:w-[400px] lg:w-[500px] transition-all duration-500 rounded-xl"
   />
 </div>
-
-
-
-    
-
-
     </main>
   );
 };
