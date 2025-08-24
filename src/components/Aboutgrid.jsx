@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Globe from 'react-globe.gl';
-import TechStack from './techstack.jsx';
+// import TechStack from './TechStack.jsx'
 import Button from './Button.jsx';
+import TechStack from './TechStack.jsx';
 
 const Aboutgrid = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -33,7 +34,7 @@ const Aboutgrid = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <TechStack />
+            <TechStack></TechStack>
           </div>
         </div>
 
