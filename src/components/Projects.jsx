@@ -9,9 +9,9 @@ const projects = [
   {
     id: 1,
     name: "Unseen Note",
-    image: "/images/projects/unseen-note.png", // your actual screenshot
+    image: "/images/projects/unseen-note.png", 
     description:
-      "An anonymous feedback platform where users can send and receive unseen notes. Features secure authentication, real-time dashboard, and AI-powered insights.",
+      "Anonymous messaging platform to collect honest feedback via shared links, with secure authentication, a simple dashboard, and AI-driven suggestions.",
     technologies: [
       "Next.js",
       "TypeScript",
