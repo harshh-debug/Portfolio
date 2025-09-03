@@ -12,6 +12,7 @@ import Aboutgrid from "./components/Aboutgrid";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import ScrollToTop from "./components/ScrollToTop";
+import { Analytics } from '@vercel/analytics/react';
 export default function App() {
 	useEffect(() => {
 		AOS.init({
@@ -21,6 +22,7 @@ export default function App() {
 	});
 	return (
 		<>
+		 <Analytics />
 			<Header></Header>
 			  <ScrollToTop />
 			<Routes>
